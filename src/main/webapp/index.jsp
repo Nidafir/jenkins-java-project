@@ -12,7 +12,7 @@
      padding-top:100px;
  }
  body{
-     background-color: blue;
+     background-color: white;
  }
   </style>
 </head>
@@ -29,13 +29,13 @@
                         </div>
                     </div>
                     <div class="item">
-                        <img src="C:\Users\EMC003\Downloads\b.jpeg" alt="gaju" >
+                        <img src="C:\Users\EMC003\Downloads\b.jpeg" alt="nida" >
                         <div class="carousel-caption">
                             <h1>KSR college of engineering</h1>
                         </div>
                     </div>
                     <div class="item">
-                        <img src="C:\Users\EMC003\Downloads\IMG_20190323_093732.jpg" alt="gaju">
+                        <img src="C:\Users\EMC003\Downloads\IMG_20190323_093732.jpg" alt="nida">
                         <div class="carousel-caption">
                             <h1>Department of computer science and engineering</h1>
                         </div>
