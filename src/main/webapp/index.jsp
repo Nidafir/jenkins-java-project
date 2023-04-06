@@ -12,7 +12,7 @@
      padding-top:100px;
  }
  body{
-     background-color: black;
+     background-color: blue;
  }
   </style>
 </head>
