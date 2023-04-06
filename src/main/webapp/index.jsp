@@ -1,95 +1,60 @@
-<div id="app">
-  <div id="header">
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  
+  <style>
+ .container .row{
+     padding-top:100px;
+ }
+ body{
+     background-color: black;
+ }
+  </style>
+</head>
+<body>
+<div class="container">
     <div class="row">
-      <div class="col-sm-4">
-        <div id="burger-icon"><i class="fa fa-bars"></i></div>
-      </div>
-      <div class="col-sm-4">
-        <div id="brand-name">Phone<span class="brand-alt">Pay</span></div>
-      </div>
-      <div class="col-sm-4">
-        <div id="bell-symb">
-          <i class="fa fa-bell"></i>
-        </div>        
-      </div>
-    </div><!-- row -->        
-  </div><!-- header -->
-  <div id="slider">
-    <div class="row">
-      <div class="col-sm-8">
-        <div id="price-section">
-          <div id="price">
-            Rs. 2301
-          </div>
-          <div id="price-details">
-            <div id="avatar">
-              <img src="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg" alt="" />
+        <div class="col-sm-12">
+            <div id="my-slider" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="C:\Users\EMC003\Downloads\a (2).jpg" alt="gaju">
+                        <div class="carousel-caption">
+                            <h1>Gajendhiran.M</h1>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="C:\Users\EMC003\Downloads\b.jpeg" alt="gaju" >
+                        <div class="carousel-caption">
+                            <h1>KSR college of engineering</h1>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="C:\Users\EMC003\Downloads\IMG_20190323_093732.jpg" alt="gaju">
+                        <div class="carousel-caption">
+                            <h1>Department of computer science and engineering</h1>
+                        </div>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#my-slider" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">previous</span>
+                </a>
+                <a class="right carousel-control" href="#my-slider" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">previous</span>
+                    </a>
             </div>
-            <div id="price-info">Requested Payment</div>
-            <div id="price-time">5 hrs ago</div>
-          </div>
-        </div><!-- price-section-->
-      </div>
-      <div class="col-sm-4 no-pading-left">
-        <div id="payment-button-section">
-           <a href="#" class="btn btn-primary">Accept</a>
-          <a href="#" class="btn btn-default">Decline</a>
         </div>
-      </div>
     </div>
-  </div>
-  <div id="feature">
-    <div class="row">
-      <div class="col-sm-6">
-        <div id="money">
-          <div id="money-title">Amount</div>
-          <div id="money-amount">
-            <span class="currency">रू</span> 0</div>
-        </div>
-      </div>
-      <div class="col-sm-6">
-        <ul class="cbtn">
-          <li>Send</li>
-          <li>Receive</li>
-          <li>Split</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <div id="content">
-    <div id="content-title">
-      Recharge & Bills
-    </div>
-    <div id="content-body">
-      <div class="content-row">
-        <div class="content-col">
-          <i class="fa fa-mobile"></i>
-          Mobile
-        </div>
-        <div class="content-col">
-          <i class="fa fa-globe"></i>
-          Internet
-        </div>
-        <div class="content-col">
-          <i class="fa fa-television"></i>
-          Dish Tv
-        </div>
-      </div>
-      <div class="content-row">
-        <div class="content-col">
-          <i class="fa fa-tint"></i>
-          Water
-        </div>
-        <div class="content-col">
-          <i class="fa fa-video-camera"></i>
-          Movie
-        </div>
-        <div class="content-col">
-          <i class="fa fa-plane"></i>
-          Flight
-        </div>
-      </div>     
-    </div>
-  </div>  
 </div>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> 
+</body>
+</html>
