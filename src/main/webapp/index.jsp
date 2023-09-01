@@ -1,34 +1,41 @@
 <!DOCTYPE html>
-<html>
+<!-- Coding By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-.parallax {
-  /* The image used */
-  background-image: url("https://source.unsplash.com/800x900/?girl");
-
-  /* Set a specific height */
-  min-height: 100px; 
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Login Page | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<p>Scroll Up and Down this page to see the parallax scrolling effect.</p>
-
-<div class="parallax"></div>
-
-<div style="height:500px;background-color:red;font-size:25px">
-Scroll Up and Down this page to see the parallax scrolling effect.
-This div is just here to enable scrolling.
-Tip: Try to remove the background-attachment property to remove the scrolling effect.
-</div>
-
+    <nav>
+        <a href="#"><img src="images/logo.svg" alt="logo"></a>
+    </nav>
+    <div class="form-wrapper">
+        <h2>Sign In</h2>
+        <form action="#">
+            <div class="form-control">
+                <input type="text" required>
+                <label>Email or phone number</label>
+            </div>
+            <div class="form-control">
+                <input type="password" required>
+                <label>Password</label>
+            </div>
+            <button type="submit">Sign In</button>
+            <div class="form-help"> 
+                <div class="remember-me">
+                    <input type="checkbox" id="remember-me">
+                    <label for="remember-me">Remember me</label>
+                </div>
+                <a href="#">Need help?</a>
+            </div>
+        </form>
+        <p>New to Netflix? <a href="#">Sign up now</a></p>
+        <small>
+            This page is protected by Google reCAPTCHA to ensure you're not a bot. 
+            <a href="#">Learn more.</a>
+        </small>
+    </div>
 </body>
 </html>
