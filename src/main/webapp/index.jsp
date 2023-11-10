@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Netflix page</title>
+        <title>my Netflix page</title>
         <script src="./netflix.js" type="text/javascript"></script>
         <script src="./languageSwicher.js" type="text/javascript"></script>
         <link rel="stylesheet" href="netflixStyle.css">
